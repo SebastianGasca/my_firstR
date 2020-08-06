@@ -7,3 +7,6 @@ ggplot(diamantes, aes(quilate, precio)) +
 ggsave("diamantes.pdf")
 
 write_csv(diamantes, "diamantes.csv")
+
+x<-1
+y<-2
